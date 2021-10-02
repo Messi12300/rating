@@ -115,10 +115,10 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [[
                 InlineKeyboardButton("♂️𝗦𝗲𝗮𝗿𝗰𝗵 𝗛𝗲𝗿𝗲♂️", switch_inline_query_current_chat=''),
-                InlineKeyboardButton("♈𝗖𝗵𝗮𝗻𝗻𝗲𝗹♈", url="https://t.me/MT_Botz")
+                InlineKeyboardButton("♈𝗖𝗵𝗮𝗻𝗻𝗲𝗹♈", url="https://t.me/MalluCinemas_Official")
                 ],[
                 InlineKeyboardButton("𝗛𝗲𝗹𝗽🟩", callback_data="help"),
-                InlineKeyboardButton("𝗔𝗯𝗼𝘂𝘁❌", callback_data="close")
+                InlineKeyboardButton("𝗔𝗯𝗼𝘂𝘁❌", callback_data="about")
                 ]]
             )
         )
@@ -330,7 +330,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Group🌟', url=f'http://t.me/MC_Group1')
+            InlineKeyboardButton('🌟𝗚𝗿𝗼𝘂𝗽🌟', url=f'http://t.me/MC_Group1')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
