@@ -35,9 +35,12 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 default_start_msg = """
-**Hi, I'm Auto Filter V3**
+<b>🙋‍♂Hɪ,  {}!!</b>
+Hᴇʀᴇ Yᴏᴜ Cᴀɴ Sᴇᴀʀᴄʜ Fɪʟᴇs Iɴ Pᴍ, Sᴇɴᴅ Mᴇ Tʜᴇ Nᴀᴍᴇ Oꜰ Fɪʟᴇ Tᴏ Sᴇᴀʀᴄʜ.\n\n
+<b>🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have To Join Our Official Channel First. After That, Try Accessing That Movie Again From Our Group. I'll Send You That Movie Privately...😍</b>
 
-Here you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.
+Join Our Main Channel 🙏
+➖➖➖➖➖➖➖➖➖➖➖➖
 """
 START_MSG = environ.get('START_MSG', default_start_msg)
 
