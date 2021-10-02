@@ -114,8 +114,11 @@ async def start(bot, message):
             caption=START_MSG,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("Help⚜️", callback_data="help"),
-                InlineKeyboardButton("About🥱", callback_data="about")
+                InlineKeyboardButton("♂️𝗦𝗲𝗮𝗿𝗰𝗵 𝗛𝗲𝗿𝗲♂️", switch_inline_query_current_chat=''),
+                InlineKeyboardButton("♈𝗖𝗵𝗮𝗻𝗻𝗲𝗹♈", url="https://t.me/MT_Botz")
+                ],[
+                InlineKeyboardButton("𝗛𝗲𝗹𝗽🟩", callback_data="help"),
+                InlineKeyboardButton("𝗔𝗯𝗼𝘂𝘁❌", callback_data="close")
                 ]]
             )
         )
