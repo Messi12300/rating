@@ -176,7 +176,7 @@ async def group(client, message):
 def get_size(size):
     """Get size in readable format"""
 
-    units = ["Bytes", "KB", "MB", "GB", "TB", "PB", "EB"]
+    units = ["Bytes", "𝗞𝗕", "𝗠𝗕", "𝗚𝗕", "TB", "PB", "EB"]
     size = float(size)
     i = 0
     while size >= 1024.0 and i < len(units):
@@ -308,7 +308,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Group', url=f'https://t.me/MC_Group1')
+                        InlineKeyboardButton('❌𝗚𝗿𝗼𝘂𝗽❌', url=f'https://t.me/MC_Group1')
                     ]
                     ]
                 
@@ -339,7 +339,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Group', url=f'https://t.me/MC_Group1')
+                        InlineKeyboardButton('❌𝗚𝗿𝗼𝘂𝗽❌', url=f'https://t.me/MC_Group1')
                     ]
                     ]
                 
