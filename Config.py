@@ -42,7 +42,7 @@ Hᴇʀᴇ Yᴏᴜ Cᴀɴ Sᴇᴀʀᴄʜ Fɪʟᴇs Iɴ Pᴍ, Sᴇɴᴅ Mᴇ Tʜ�
 Join Our Main Channel 🙏
 ➖➖➖➖➖➖➖➖➖➖➖➖
 """
-START_MSG = environ.get('START_MSG', default_start_msg)
+START_MSG = environ.get('START_MSG', 'default_start_msg')
 
 FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "")
 OMDB_API_KEY = environ.get("OMDB_API_KEY", "http://www.omdbapi.com/?i=tt3896198&apikey=4f08a979")
