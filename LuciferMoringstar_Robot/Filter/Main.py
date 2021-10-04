@@ -54,7 +54,7 @@ async def filter(client, message):
         btn = []
         search = message.text
         chat_id = cmd.from_user.id
-        mo_tech_yt = f"**🎬 Title:** {search}\n**⭐ Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n\n©𝐌𝐚𝐥𝐥𝐮 𝐂𝐢𝐧𝐞𝐦𝐚𝐬\n\n📃 Pages 1/{data['total']}"
+        mo_tech_yt = f"**🎬 Title:** {search}\n**⭐ Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n\n©𝐌𝐚𝐥𝐥𝐮 𝐂𝐢𝐧𝐞𝐦𝐚𝐬\n\n**📃 Pages:**{data['total']}"
         files = await get_filter_results(query=search)
         if files:
             for file in files:
